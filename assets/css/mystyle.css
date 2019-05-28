@@ -1,0 +1,27 @@
+.default-sidebar>.side-navbar a[aria-expanded="true"]::before {
+    content: none;
+}
+
+.default-sidebar>.side-navbar a[data-toggle="collapse"]::before {
+    content: none;
+}
+
+.default-sidebar>.side-navbar a[aria-expanded="true"] {
+    margin: 0px;
+}
+
+.widget-body {
+     padding: 0;
+}
+
+.container-dash {
+    padding: 30px 30px 0px 30px;
+}
+
+.dash-content {
+    padding: 0px 30px 30px 30px;
+}
+
+.page-cont {
+    padding: 0 15px 0px 15px;
+}
