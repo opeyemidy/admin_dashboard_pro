@@ -25,3 +25,116 @@
 .page-cont {
     padding: 0 15px 0px 15px;
 }
+
+.media-body {
+    padding: 1rem 1rem 0rem 1.5rem;
+}
+
+.alert-txt {
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.3rem;
+}
+
+.txt2 {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+}
+
+.alert-txt {
+    text-align: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.3rem;
+}
+
+.alertBtn {
+    font-size: 1.7rem;
+    background-color: rgb(201, 48, 44);
+    font-style: italic;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.4rem 0.3rem 0.2rem;
+}
+
+.container-dash {
+    padding: 30px 30px 0px 30px;
+}
+
+.widget-body {
+    padding: 0;
+}
+
+.widgets-12 {
+    font-size: 1.2rem;
+    color: rgb(44, 48, 77);
+    font-weight: 600;
+    padding: 0px !important;
+}
+
+.widget-body {
+    padding: 0;
+}
+
+.prof-form {
+    padding: 10px 80px;
+}
+
+.prof-title {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.frm-style {
+    padding-bottom: 10px;
+}
+
+.prof-title-icon {
+    font-size: 3rem;
+}
+
+.frm-control {
+    color: rgb(44, 48, 77);
+    margin-bottom: 1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(238, 238, 238);
+    border-image: initial;
+    border-radius: 4px;
+}
+
+.btns {
+    margin-left: 30%;
+    margin-right: 30%;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+}
+
+input[type=password] {
+  border: none;
+}
+
+.frm-po {
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+}
+
+
+.tab-padding {
+    padding-top: 20px;
+    overflow-x: hidden !important;
+}
+
+.td-act {
+    
+    text-align: center;
+}
+
+
+.td-actions {
+    text-align: center;
+}
+
+tr:nth-child(2) {
+ background-color: rgba(52, 40, 104, .05);
+}
