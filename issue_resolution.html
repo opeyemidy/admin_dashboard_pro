@@ -17,16 +17,15 @@
             }
           });
         </script>
-
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-
-<link rel="stylesheet" href="assets/vendors/css/base/bootstrap.min.css">
-<link rel="stylesheet" href="assets/vendors/css/base/elisyam-1.5.min.css">
-<!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+        
+        <link rel="stylesheet" href="assets/vendors/css/base/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/vendors/css/base/elisyam-1.5.min.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.min.css">
+        <link rel="stylesheet" href="assets/css/newstyle.css">
 </head>
 <body id="page-top">
 
@@ -74,76 +73,6 @@
 <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center pull-right">
 
 <li class="nav-item d-flex align-items-center"><a id="search" href="tables-tabledit.html#"><i class="la la-search"></i></a></li>
-
-
-<li class="nav-item dropdown"><a id="notifications" rel="nofollow" data-target="#" href="tables-tabledit.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><i class="la la-bell animated infinite swing"></i><span class="badge-pulse"></span></a>
-<ul aria-labelledby="notifications" class="dropdown-menu notification">
-<li>
-<div class="notifications-header">
-<div class="title">Notifications (4)</div>
-<div class="notifications-overlay"></div>
-<img src="assets/img/notifications/01.jpg" alt="..." class="img-fluid">
-</div>
-</li>
-<li>
-<a href="tables-tabledit.html#">
-<div class="message-icon">
-<i class="la la-user"></i>
-</div>
-<div class="message-body">
-<div class="message-body-heading">
-New user registered
-</div>
-<span class="date">2 hours ago</span>
-</div>
-</a>
-</li>
-<li>
-<a href="tables-tabledit.html#">
-<div class="message-icon">
-<i class="la la-calendar-check-o"></i>
-</div>
-<div class="message-body">
-<div class="message-body-heading">
-New event added
-</div>
-<span class="date">7 hours ago</span>
-</div>
-</a>
-</li>
-<li>
-<a href="tables-tabledit.html#">
-<div class="message-icon">
-<i class="la la-history"></i>
-</div>
-<div class="message-body">
-<div class="message-body-heading">
-Server rebooted
-</div>
-<span class="date">7 hours ago</span>
-</div>
-</a>
-</li>
-<li>
-<a href="tables-tabledit.html#">
-<div class="message-icon">
-<i class="la la-twitter"></i>
-</div>
-<div class="message-body">
-<div class="message-body-heading">
-You have 3 new followers
-</div>
-<span class="date">10 hours ago</span>
-</div>
-</a>
-</li>
-<li>
-<a rel="nofollow" href="tables-tabledit.html#" class="dropdown-item all-notifications text-center">View All Notifications</a>
-</li>
-</ul>
-</li>
-
-
 <li class="nav-item dropdown"><a id="user" rel="nofollow" data-target="#" href="tables-tabledit.html#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><img src="assets/img/avatar/avatar-01.jpg" alt="..." class="avatar rounded-circle"></a>
 <ul aria-labelledby="user" class="user-size dropdown-menu">
 <li class="welcome">
@@ -192,21 +121,20 @@ Faq
 <nav class="side-navbar box-scroll sidebar-scroll">
 
     <ul class="list-unstyled">
-        <li class="active"><a href="#" aria-expanded="true"><i class="la la-columns"></i><span>Dashboard</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="la la-user"></i><span>Your Profile</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-android-people"></i><span>Manage Businesses</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-connection-bars"></i><span>Manage Discount</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-android-calendar"></i><span>Transaction</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-android-calendar"></i><span>Fillter All Reports</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-android-calendar"></i><span>Fillter Merchant</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-briefcase"></i><span>Credit Wallet</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-ios-book"></i><span>Issue Resolution</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-calculator"></i><span>Network Balance</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-cash"></i><span>Admin Activity Log</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-social-codepen"></i><span>Business Activity Log</span></a></li>
-        <li><a href="#" aria-expanded="false"><i class="ion-power"></i><span>Logout</span></a></li>
-        <!-- <li><a href="#" aria-expanded="false"><i class="la la-exclamation-triangle"></i><span>Errors</span></a></li> -->
-        </ul>
+<li class="active"><a href="dashboard.html" aria-expanded="true"><i class="la la-columns"></i><span>Dashboard</span></a></li>
+<li><a href="profile.html" aria-expanded="false"><i class="la la-user"></i><span>Your Profile</span></a></li>
+<li><a href="mgt_customer.html" aria-expanded="false"><i class="ion-android-people"></i><span>Manage Businesses</span></a></li>
+<li><a href="mgt_discount.html" aria-expanded="false"><i class="ion-connection-bars"></i><span>Manage Discount</span></a></li>
+<li><a href="transaction.html" aria-expanded="false"><i class="ion-android-calendar"></i><span>Transaction</span></a></li>
+<li><a href="filter_report.html" aria-expanded="false"><i class="ion-android-calendar"></i><span>Filter All Reports</span></a></li>
+<li><a href="filter_merchant.html" aria-expanded="false"><i class="ion-android-calendar"></i><span>Filter Merchant</span></a></li>
+<li><a href="creditwallet.html" aria-expanded="false"><i class="ion-briefcase"></i><span>Credit Wallet</span></a></li>
+<li><a href="issue_resolution.html" aria-expanded="false"><i class="ion-ios-book"></i><span>Issue Resolution</span></a></li>
+<li><a href="#" aria-expanded="false"><i class="ion-calculator"></i><span>Network Balance</span></a></li>
+<li><a href="#" aria-expanded="false"><i class="ion-cash"></i><span>Admin Activity Log</span></a></li>
+<li><a href="#" aria-expanded="false"><i class="ion-social-codepen"></i><span>Business Activity Log</span></a></li>
+<li><a href="#" aria-expanded="false"><i class="ion-power"></i><span>Logout</span></a></li>
+</ul>
 
 </nav>
 
@@ -218,100 +146,29 @@ Faq
 <div class="row">
 <div class="page-header">
 <div class="d-flex align-items-center">
-<h2 class="page-header-title">Tabledit</h2>
+<h2 class="page-header-title">Recharge Transaction Issue Resolution</h2>
 <div>
 <ul class="breadcrumb">
 <li class="breadcrumb-item"><a href="db-default.html"><i class="ti ti-home"></i></a></li>
-<li class="breadcrumb-item active">Tabledit</li>
+<!-- <li class="breadcrumb-item active">Tabledit</li> -->
 </ul>
 </div>
 </div>
 </div>
 </div>
-
-<div class="row">
-<div class="col-xl-12">
-
 <div class="widget has-shadow">
 <div class="widget-header bordered no-actions d-flex align-items-center">
-<h4>Edit Button</h4>
-</div>
-<div class="widget-body">
-<div class="table-responsive">
-<table id="example1" class="table mb-0">
-<thead>
-<tr>
-<th>#</th>
-<th>Firstname</th>
-<th>Lastname</th>
-<th>Email</th>
-<th>Country</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Brandon</td>
-<td>Smith</td>
-<td>bsmith@example.com</td>
-<td>FR</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Megan</td>
-<td>Duncan</td>
-<td>megan@example.com</td>
-<td>US</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Louis</td>
-<td>Henry</td>
-<td>louis@example.com</td>
-<td>AU</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Nathan</td>
-<td>Hunter</td>
-<td>nathan@example.com</td>
-<td>IT</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Peter</td>
-<td>Collins</td>
-<td>peter@example.com</td>
-<td>RU</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Beverly</td>
-<td>Oliver</td>
-<td>beverly@example.com</td>
-<td>EN</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</div>
 
-
-<div class="widget has-shadow">
-<div class="widget-header bordered no-actions d-flex align-items-center">
-<h4>Simple Click</h4>
 </div>
 <div class="widget-body">
 <div class="table-responsive">
 <table id="example2" class="table table-hover mb-0">
 <thead>
 <tr>
-<th>#</th>
-<th>Firstname</th>
-<th>Lastname</th>
-<th>Email</th>
-<th>Country</th>
+<th>Provider</th>
+<th>Error Codes</th>
+<th>Meaning</th>
+
 </tr>
 </thead>
 <tbody>
@@ -319,50 +176,55 @@ Faq
 <td>1</td>
 <td>Brandon</td>
 <td>Smith</td>
-<td>bsmith@example.com</td>
-<td>FR</td>
+
 </tr>
 <tr>
 <td>2</td>
 <td>Megan</td>
 <td>Duncan</td>
-<td>megan@example.com</td>
-<td>US</td>
+
 </tr>
 <tr>
 <td>3</td>
 <td>Louis</td>
 <td>Henry</td>
-<td>louis@example.com</td>
-<td>AU</td>
+
 </tr>
 <tr>
 <td>4</td>
 <td>Nathan</td>
 <td>Hunter</td>
-<td>nathan@example.com</td>
-<td>IT</td>
+
 </tr>
 <tr>
 <td>5</td>
 <td>Peter</td>
 <td>Collins</td>
-<td>peter@example.com</td>
-<td>RU</td>
+
 </tr>
 <tr>
 <td>6</td>
 <td>Beverly</td>
 <td>Oliver</td>
-<td>beverly@example.com</td>
-<td>EN</td>
+
 </tr>
 </tbody>
 </table>
 </div>
 </div>
 </div>
-
+<div class="widget widget-12 has-shadow ">
+       
+    <div class="media jumb2">
+    <div class="align-self-center ml-5 mr-5">
+    
+    <div class="media-body align-self-center ">
+      <p>Please check the <b>log message</b> before reconciliation to ensure proper casue of error</p>
+    </div>
+    </div>
+   
+    </div> 
+   </div>
 
 <div class="widget has-shadow">
 <div class="widget-header bordered no-actions d-flex align-items-center">
@@ -373,11 +235,13 @@ Faq
 <table id="example3" class="table mb-0">
 <thead>
 <tr>
-<th>#</th>
-<th>Firstname</th>
-<th>Lastname</th>
-<th>Email</th>
-<th>Country</th>
+<th>S/N</th>
+<th>Bussines</th>
+<th>Amount</th>
+<th>Beneficiary</th>
+<th>Date</th>
+<th>Log Message</th>
+<th>Resolve Issue</th>
 </tr>
 </thead>
 <tbody>
@@ -387,6 +251,10 @@ Faq
 <td>Smith</td>
 <td>bsmith@example.com</td>
 <td>FR</td>
+<td>bsmith@example.com</td>
+<td> <button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button>
+</td>
 </tr>
 <tr>
 <td>2</td>
@@ -394,6 +262,9 @@ Faq
 <td>Duncan</td>
 <td>megan@example.com</td>
 <td>US</td>
+<td>bsmith@example.com</td>
+<td><button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button></td>
 </tr>
 <tr>
 <td>3</td>
@@ -401,6 +272,9 @@ Faq
 <td>Henry</td>
 <td>louis@example.com</td>
 <td>AU</td>
+<td>bsmith@example.com</td>
+<td><button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button></td>
 </tr>
 <tr>
 <td>4</td>
@@ -408,6 +282,9 @@ Faq
 <td>Hunter</td>
 <td>nathan@example.com</td>
 <td>IT</td>
+<td>bsmith@example.com</td>
+<td><button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button></td>
 </tr>
 <tr>
 <td>5</td>
@@ -415,6 +292,9 @@ Faq
 <td>Collins</td>
 <td>peter@example.com</td>
 <td>RU</td>
+<td>bsmith@example.com</td>
+<td><button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button></td>
 </tr>
 <tr>
 <td>6</td>
@@ -422,6 +302,9 @@ Faq
 <td>Oliver</td>
 <td>beverly@example.com</td>
 <td>EN</td>
+<td>bsmith@example.com</td>
+<td><button type="button" class="btn btn-danger mr-1 mb-2">Refund</button><br>
+  <button type="button" class="btn btn-info mr-1 mb-2">Mark as Resolved</button></td>
 </tr>
 </tbody>
 </table>
@@ -723,10 +606,6 @@ See you later!
 </div>
 
 </div>
-</div>
-
-</div>
-
 <script src="https://www.saerox-design.com/elisyam/assets/vendors/js/base/jquery.min.js" type="c71f6cd65d51f761fe49e579-text/javascript"></script>
 <script src="https://www.saerox-design.com/elisyam/assets/vendors/js/base/core.min.js" type="c71f6cd65d51f761fe49e579-text/javascript"></script>
 

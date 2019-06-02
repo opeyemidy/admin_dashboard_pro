@@ -29,6 +29,18 @@
 .media-body {
     padding: 1rem 1rem 0rem 1.5rem;
 }
+.media-body2 {
+    padding: 1rem 1rem 0rem 0rem;
+}
+
+.txts-pad {
+    padding-bottom: 1.5rem;
+}
+
+.ti-money:before {
+    content: "\e68c";
+    font-size: 40px;
+}
 
 .alert-txt {
     text-align: center;
@@ -61,6 +73,11 @@
 
 .widget-body {
     padding: 0;
+}
+
+.txts-th {
+    border-left: 2px solid #fff !important;
+    border-right: 2px solid #fff !important;
 }
 
 .widgets-12 {
@@ -137,4 +154,19 @@ input[type=password] {
 
 tr:nth-child(2) {
  background-color: rgba(52, 40, 104, .05);
+ border: 1px solid #fff !important;
+}
+
+.cat_select {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.cat_button {
+    margin-left: 15px;
+    margin-bottom: 15px !important;
+}
+
+.opt-pad {
+    padding-bottom: 10px;
 }
