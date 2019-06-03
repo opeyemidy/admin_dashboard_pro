@@ -1,0 +1,37 @@
+.contain {
+	padding: 25px !important;
+	margin-left: 45px !important;
+	font-size: 20px;
+}
+.blue{
+	    color: #1da1f2!important;
+}
+.well-white{
+	background-color: white;
+}
+.page-header{
+	padding: 25px;
+}
+.spaces{
+width: 10%;		
+}
+.spacess{
+width: 30%;		
+}
+.space{
+width: 20%;		
+}
+.cont thead{
+	background-color: #f5f5ef;
+	width: 100%;
+}
+th{
+	padding: 20px 10px 20px 5px;
+}
+tbody{
+	padding-top: 30px !important;
+}
+
+tbody td.t-pad {
+	padding: 20px 0px;
+}
