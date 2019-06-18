@@ -59,3 +59,7 @@ label {
  .form_body .btn1:hover{
   background-color:#e76c90;
 }
+
+.default-sidebar>.side-navbar a[aria-expanded="true"]::before {
+    content: none;
+}
